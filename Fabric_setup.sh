@@ -31,7 +31,7 @@ echo "export GOROOT=/usr/local/go" >> /etc/profile
 echo "export PATH=$PATH:$GOROOT/bin" >> /etc/profile
 source /etc/profile
 EOF
-source 
+
 ### setup docker & test
 curl -fsSL https://get.docker.com/ | sh
 sudo docker run hello-world
