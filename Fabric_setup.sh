@@ -36,7 +36,7 @@ EOF
 curl -fsSL https://get.docker.com/ | sh
 sudo docker run hello-world
 ### setup docker-compose
-sudo pip install -y docker-compose
+sudo pip install docker-compose
 ### gain docker auth for user 
 sudo usermod -a -G docker $USER
 
