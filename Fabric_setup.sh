@@ -45,7 +45,10 @@ cd $HOME
 sudo git clone https://github.com/hyperledger/fabric-samples.git
 cd fabric-samples
 sudo su <<HERE
-curl -sSL https://goo.gl/iX9dek | bash
+#curl -sSL https://goo.gl/iX9dek | bash
+#https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap-1.0.0.sh
+curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/release/scripts/bootstrap-1.0.0.sh | bash
+
 HERE
 cd $HOME
 
